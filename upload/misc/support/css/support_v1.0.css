@@ -1,0 +1,355 @@
+/** ------------------------------------------------------------    xxxx   ------------------------------------------------------------- **/
+.fullwidth_page_headerrow  								{display: none;}
+section                                               	{padding:0;}
+section.contact-us                                    	{background-color: #E9E1D9; padding: 40px 10px 60px 10px;}
+section.help                                    	  	{padding: 40px 10px;}
+section.gift   											{padding: 60px 10px 20px 10px; background-color: #4C4C4C;}
+section.extras   										{padding: 60px 10px;}
+section.more   											{padding: 60px 10px; background-color: #E9E1D9;}
+section.specialist   									{padding: 60px 10px;}
+section.extras h2.lrg									{margin-bottom: 20px;}
+h2.lrg   												{font-size: 28px;}
+section.specialist h2									{font-size: 36px; text-align: center;}
+section.specialist p									{margin: 0; text-align: center;}
+a:hover:after 											{-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+.row-fluid .offset1 									{margin-left: 8.547008547008547%; * margin-left: 8.440625568285142%}
+.centre-txt  											{text-align: center;}
+.ask-panel  											{background: #E9E1D9; padding: 25px 15px 1px 15px;}
+.pop-panel  											{background: #E9E1D9; padding: 15px; margin-bottom: 20px;}
+ul.well 												{background-color: #fff;padding:  5px 15px;}
+ul.well li												{margin-top: 10px; margin-bottom: 10px; display: block;}
+ul.well li a.question									{color: #2CA6BD;}
+section.help .search   									{background-color: white;background-repeat: no-repeat;background-position: 325px 0;border: 1px solid #d8d8d8;background: #e9e1d8 !important;border: 0 !important;display: block;overflow: hidden;padding: 15px;margin-bottom: 20px; position: relative;}
+section.help .search input[type=text] 					{background: white url("http://www.kuoni.co.uk/Content/img/icons/icon-close.png") no-repeat scroll right 65px center !important; border: 0; float: left; height: 50px !important; line-height: 50px; width: 90% !important; color: #8b8b8b; font-size: 18px !important; text-indent: 15px !important; padding-right: 10%; }
+section.help .search .icon_search 						{background: #2CA6BD url("http://www.kuoni.co.uk/Content/img/icons/icon-search.png") no-repeat scroll center center;height: 50px;position: absolute;right: 15px;width: 60px;line-height: 0; font-size: 0; color: transparent; text-decoration: none; cursor: pointer;}
+
+#help-tabs                                            	{width: 100%; position: relative; border: none;}
+ul#help-tabs                                          	{padding: 0;margin: 20px 0;}
+#help-tabs li.tab                                     	{list-style: none; display: inline;}
+#help-tabs li.tab a.tab-link                          	{display: inline-block; padding: 10px 15px; line-height: 1.3; height: 60px; background: #F7F2ED; border-top: 3px solid #F7F2ED; border-right: 2px solid #E9E1D9; text-decoration: none; color: #5E5E5E; width: 25%; box-sizing: border-box; margin: 0; text-align: center; font-family: "open_sansbold", Arial, "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase;margin-right: -4px;}
+.no-touch #help-tabs li.tab a.tab-link:hover, 
+#help-tabs li.tab a.active         					  	{color: #000; border-color: #2CA6BD;background-color: #fff; border-right: 2px solid #E9E1D9; }
+#help-tabs article                                    	{display: none; float: left; background: #fff; overflow: hidden; padding: 20px;box-sizing: border-box;border-right: 2px solid #E9E1D9;width: 100%;}
+.no-js #help-tabs article                             	{display: block;}
+#help-tabs article .tab-content-top   					{margin: 4% 0;}
+
+.important-links 									  	{background-color: #F5F3F3; padding: 15px 15px 0 15px; margin-top: 20px;}
+.important-links a                                    	{display: inline-block;margin-bottom: 10px; float:left; clear: both; padding-right: 30px; color: #000;text-transform: uppercase;}
+
+a.btn-lrg 											  	{font-family: "open_sansbold", Arial, "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; background-color: #2CA6BD; color: #fff; text-align: center; font-size: 1rem; display: inline-block; width: 100%;padding: 24px 0; margin-bottom: 15px; zoom: 1; line-height: normal; white-space: nowrap; vertical-align: middle; text-align: center; cursor: pointer;     -webkit-user-drag: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; text-decoration: none;-webkit-transition: all 500ms ease-in-out;-moz-transition: all 500ms ease-in-out;-ms-transition: all 500ms ease-in-out;-o-transition: all 500ms ease-in-out;transition: all 500ms ease-in-out;}
+.no-touch a.btn-lrg:hover 								{text-decoration: none; }
+h2.lrg-contact  										{font-size: 30px; color: #2CA6BD; font-family: "open_sansregular", Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top: -6px; text-transform: uppercase; margin-bottom: 0;}
+h2.lrg-contact a  										{font-family: "open_sansbold"; color: inherit; text-decoration: none;}
+h3.lrg-contact  										{font-size: 18px; color: #5E5E5E; font-family: "open_sansbold", Arial, "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; margin-top: 0;}
+span.contact-right  									{float: right;clear: both;color: #2CA6BD;}
+
+a.text-link   											{color: #000; display: inline-block;}
+a.text-link:after   									{content:''; background-image: url(img/arrow.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;}
+.no-touch a.text-link:hover   							{text-decoration: none; color: #146672;}
+.no-touch a.text-link:hover:after   					{background-image: url(img/arrow-petrol.svg);}
+a.text-link.azure   									{color: #2CA6BD;}
+a.text-link.azure:after   								{content:''; background-image: url(img/arrow-azure.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;}
+.no-touch a.text-link.azure:hover  						{color: #146672;}
+.no-touch a.text-link.azure:hover:after   				{background-image: url(img/arrow-petrol.svg);}
+a.question.azure   										{color: #2CA6BD; margin-bottom: 10px; display: inline-block; text-decoration: none;}
+.no-touch a.question.azure:hover  						{color: #146672;}
+.no-touch a.question.azure:hover:after   				{background-image: url(img/arrow-petrol.svg);}
+
+.medic  												{text-align: center; background-image: url(img/cardiogram.svg); background-repeat: no-repeat; background-position: 50% 0; width: 100%; background-size: 41px 45px; height: 100px; padding-left: 40px; padding-right: 40px; box-sizing: border-box; margin-top: 15%;}
+.medic a 												{padding-top: 50px;}
+a.white-btn  											{display:block; color: #000; text-align: center; background-color: #fff;padding: 15px; margin: 5px 0;}
+a.white-btn:after  										{content:''; background-image: url(img/arrow.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;}
+.no-touch a.white-btn:hover 							{text-decoration: none; color: #146672;}
+.no-touch a.white-btn:hover:after  						{background-image: url(img/arrow-petrol.svg);}  										
+
+.card  													{min-height: 270px; background-color: #fff; box-sizing: border-box;}
+.card-extras  											{min-height: 210px; background-color: #000; box-sizing: border-box;}
+.card-extras figure 									{margin: 0; position: relative; overflow: hidden;max-height: 210px;}
+.card-extras figure img.extra-img 						{max-width: 400px;}
+.card-extras figcaption									{margin: 0; position: absolute; top:100px; right: 0; bottom: 5px; left: 0; padding-left: 15px; padding-right: 15px; min-height: 90px; color: #fff; padding-top: 10px; padding-bottom: 10px;}
+.card-extras figcaption	h2 								{margin: 5px 0; color: inherit;}
+.card-extras figcaption	p  								{margin: 0; color: inherit; line-height: 1.2;}
+.card-extras.jl-extra figcaption  						{color: #000; top: 0;}
+.card-extras.jl-extra figcaption h2						{margin-top: -5px;}
+.card-extras.jl-extra figcaption p  					{width:58%;}
+.card.kuoni-gift-list  									{padding: 15px; background: url(img/gift-list.jpg) center top no-repeat #D6A09E; background-size: cover;}
+.card.kuoni-gift-card  									{padding: 15px; background: url(img/gift-card.jpg) center bottom no-repeat #D6A09E; background-size: 100%;}
+.card.jl-gift  											{background-color: #F3F1ED; padding: 15px;}
+.card.jl-gift img.jl-gift-logo  						{padding: 20px;display: block;margin-left: auto;margin-right: auto;}
+a.read-more  											{color: #000; padding: 15px; display: block; background-color: #fff; text-align: right;margin-bottom: 20px;}
+a.read-more:after 										{content:''; background-image: url(img/arrow.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;}
+.no-touch a.read-more:hover  							{text-decoration: none; color: #146672; background-color: #F5F3F3;}
+.no-touch a.read-more:hover:after  						{background-image: url(img/arrow-petrol.svg);}
+
+section.extras a.read-more  							{color: #fff; padding: 15px; display: block; background-color: #000; text-align: right;margin-bottom: 30px;}
+section.extras a.read-more:after 						{content:''; background-image: url(img/arrow-white.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;}
+.no-touch section.extras a.read-more:hover  			{text-decoration: none; color: #2CA6BD; background-color: #000;}
+.no-touch section.extras a.read-more:hover:after  		{background-image: url(img/arrow-azure.svg);}
+
+section.more ul.morelinks 								{text-align: center;}
+section.more ul.morelinks li  							{display: inline-block; margin-top: 2px; margin-bottom: 3px;}
+section.more ul.morelinks li a  						{display:inline-block; background-color: #fff; padding: 15px 10px 18px 50px; position: relative;text-decoration: none; color: #000; font-size: 14px;border-top: 3px solid transparent;}
+section.more ul.morelinks li a:before 					{content:""; width: 40px; height: 40px; display: inline-block;background-repeat: no-repeat; position: absolute;left: 10px;top: 10px;}
+section.more ul.morelinks li a.press:before 	 		{background-image: url(img/newspaper.svg);}				
+section.more ul.morelinks li a.career:before 	 		{background-image: url(img/job.svg);}	
+section.more ul.morelinks li a.privacy:before 	 		{background-image: url(img/padlock.svg);}	
+section.more ul.morelinks li a.terms:before 	 		{background-image: url(img/document.svg);}	
+section.more ul.morelinks li a.feedback:before 	 		{background-image: url(img/megaphones.svg); top: 14px;}	
+.no-touch section.more ul.morelinks li a:hover  		{border-top: 3px solid #2CA6BD;}
+
+section.specialist ul.specialist-logos 					{margin: 40px 0;text-align: center;}
+section.specialist ul.specialist-logos li  				{width: 20%;text-align: center; display: inline-block;margin: 0; padding: 0;}
+
+
+
+ul.contact-social 										{margin: 30px 0; text-align: center;}
+ul.contact-social li  									{display: inline-block; margin-left: 5px; margin-right: 5px;}
+ul.contact-social li a  								{display: block; width: 68px; height: 64px; background-repeat: no-repeat;background-image: url(img/social-icons.svg);}	
+ul.contact-social li a.facebook  						{background-position: 2px 0;}	
+ul.contact-social li a.twitter  						{background-position: -94px 0;}	
+ul.contact-social li a.pintrest  						{background-position: -192px 0;}	
+ul.contact-social li a.instagram 						{background-position: -283px 0;}
+
+
+/* animation */
+.hvr-bounce-to-right 								  	{display:inline-block; vertical-align: middle; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; position: relative; -webkit-transition-property: color; transition-property: color;  -webkit-transition-duration: 0.5s;  transition-duration: 0.5s;}
+.hvr-bounce-to-right:before 						  	{content:"";  position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: #146672; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin: 0 50%; transform-origin: 0 50%; -webkit-transition-property: transform; transition-property: transform; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out;}
+.no-touch .hvr-bounce-to-right:hover, 
+.hvr-bounce-to-right:focus, 
+.hvr-bounce-to-right:active 						  	{color: white;}
+.no-touch .hvr-bounce-to-right:hover:before, 
+.hvr-bounce-to-right:focus:before, 
+.hvr-bounce-to-right:active:before 					  	{-webkit-transform: scaleX(1); transform: scaleX(1); -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);}
+
+
+/* ----------------extraspage------------- */
+
+/*GRID*/
+
+.grid 													{margin-top: 40px;}
+/* clearfix */
+.grid:after 											{content:'';  display: block;  clear: both;}
+/* ---- grid-item ---- */
+.grid-sizer, .grid-item 								{width: 300px;margin-bottom: 20px;}
+.gutter-sizer 											{width: 20px;}
+.grid-item 												{min-height: 120px; float: left; background-color: gray;}
+.grid-item--width2  									{width:620px;}
+
+section.extras-top                                    	{background-color: #f5f5f5; padding: 40px 10px 60px 10px;}
+section.extras-top .introcard  							{background-image: url(img/extra-intro.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; height: 440px;}
+section.extras-top .introcard h1 						{text-align: center;position: relative; top: 100px; margin-top: 0; font-size: 36px;}
+
+div.read-more 											{background-color: #fff; position: absolute; bottom: 0; display: block; width: 100%; padding: 14px 20px; box-sizing: border-box; text-align: right;color: #000;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+div.read-more:after 									{content:''; background-image: url(img/arrow.svg); background-repeat: no-repeat;background-size: 6px 12px; display: inline-block; width: 6px; height: 12px; background-position: center;margin-left: 7px; margin-bottom: -1px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+.no-touch div.read-more:hover,
+.no-touch .card-extras:hover div.read-more   			{text-decoration: none!important; color: #146672; background-color: #F5F3F3;}
+.no-touch div.read-more:hover:after,
+.no-touch .card-extras:hover div.read-more:after  		{background-image: url(img/arrow-petrol.svg);}
+.no-touch a.card-link  									{text-decoration: none;}
+
+section.extras-top .card-extras figcaption				{margin: 0; position: absolute; top:60px; right: 0; bottom: 5px; left: 0; padding-left: 15px; padding-right: 15px; min-height: 90px; color: #fff; padding-top: 10px; padding-bottom: 10px;}
+section.extras-top .card-extras.jl-extra figcaption  	{color: #000; top: 0;}
+section.extras-gift										{padding: 60px 10px 40px 10px; background-color: #fff;}
+section.extras-gift .card  								{min-height: 470px; box-sizing: border-box; position: relative;}
+section.extras-gift .gift-btns  						{position: absolute; bottom: 40px;left: 35px; right: 35px;}
+section.extras-gift a.white-btn							{margin: 15px 0;}
+section.extras-gift .card.kuoni-gift-card  				{background-image: url(img/exras-gift-card.jpg); background-size: cover; background-position: center; background-color: #D6A09E; background-repeat: no-repeat;}
+section.extras-gift .jl-gift 							{padding-top: 0; padding-right: 0; padding-left: 0;}
+section.extras-gift .jl-gift p							{padding-right: 15px;padding-left: 15px; margin-top: 15px; margin-bottom: 0;}
+
+section.wedding  										{background-image: url(img/wedding-bk.jpg); background-repeat: no-repeat; padding: 300px 15px 0 15px; height: 580px; box-sizing: border-box; background-size: cover; background-position: right center; background-color: #E7D1AE;}
+section.wedding h2 										{margin-bottom: 0; font-size: 36px;}
+section.wedding p 										{margin-top: 0;}
+section.wedding .kuoni_btn 								{margin:0;}
+
+
+section.holiday-extras  								{padding: 20px 15px 40px 15px;}
+section.holiday-extras .card 							{display: table; min-height: 180px; width: 100%;box-sizing: border-box;padding: 10px; background-color: gray; background-size: cover; background-position: center; background-repeat: no-repeat;}
+section.holiday-extras .card.stack  					{height: 380px;}
+section.holiday-extras .card a 							{height: 100%; width: 100%; display: table-cell; vertical-align: middle; text-align: center; text-decoration: none;}
+section.holiday-extras .card a h2  						{color: #fff; }
+
+section.holiday-extras .card.hotels  					{background-image: url(img/hotels-bk.jpg);}
+section.holiday-extras .card.parking  					{background-image: url(img/parking-bk.jpg);}
+section.holiday-extras .card.climate  					{background-image: url(img/climate-bk.jpg);}
+section.holiday-extras .card.care  						{background-image: url(img/care-bk.jpg);}
+section.holiday-extras .card.safety  					{background-image: url(img/safety-bk.jpg);}
+
+section.store 											{background-color: #91AB86;padding: 0;}
+section.store img  										{display: block;}
+section.store .text-block  								{max-width: 530px; margin-top: 15%;}
+section.store h2										{color: #fff; font-size: 34px; line-height: 1.3; margin-bottom: 20px;}
+section.store .white-btn  								{display: inline-block; margin-right: 15px;}
+/* ----------------extraspage------------- */
+
+
+
+.dynamic-faqs-search .quick-lookup-results 				{box-shadow: 0 46px 45px -29px rgba(0, 0, 0, 0.37);}
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+a.read-more  											{margin-bottom: 30px;}
+#help-tabs .tab-break                                 	{display: none;}
+#help-tabs li.tab a.tab-link                          	{padding: 20px 15px;}
+
+/* ----------------extraspage------------- */
+.grid-sizer, .grid-item 								{width: 370px; margin-bottom: 30px;}
+.gutter-sizer 											{width: 30px;}
+.grid-item--width2  									{width: 770px;}
+
+section.extras-gift .card  								{min-height: 500px;}
+section.extras-top .introcard  							{height: 450px;}
+section.holiday-extras .card.stack  					{height: 390px;}
+section.holiday-extras  								{padding-top: 30px}
+section.store h2										{font-size: 36px;}
+ }
+ 
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+section.help                                    	  	{padding: 30px 0 20px 0;}
+section.contact-us                                    	{padding: 20px 0 30px 0;}
+section.gift   											{padding: 20px 0;}
+section.extras   										{padding: 20px 0 0 0;}
+section.more   											{padding: 40px 0;}
+section.specialist   									{padding: 30px 0;}
+#help-tabs li.tab a.tab-link                        	{padding: 10px 15px;}
+a.btn-lrg 												{font-size: 0.9rem;}
+.important-links a 										{width: 70%;}
+a.read-more  											{margin-bottom: 20px;}
+.card-extras figcaption									{top: 90px;}
+.card-extras figcaption	h2 								{font-size: 20px;}
+.card-extras.jl-extra figcaption p  					{width:100%;}
+.card-extras.jl-extra figure img.extra-img 				{transform: scaleX(2);}
+.full-tablet  											{width: 100%!important; margin-left: 0!important;}
+.medic  												{background-position: 50% 0; height: 80px; padding-top: 0; padding-left: 0; padding-right: 0; box-sizing: border-box; width: 100%; margin-top: 5%;}
+.tablet-span7                              				{width: 57.21176577559556%;}
+.tablet-span5                              				{width: 40.3723404216383%;}
+.tablet-span6                              				{width: 48.93617020799999%;}
+.tablet-span12                             				{width: 100%;}
+div.span8.tablet-span12   								{width: 100%;}
+div.span4.tablet-span12   								{width: 100%; margin-left: 0!important;}
+div.span4.tablet-span6  								{width: 48.62%;}
+div.span4.tablet-span6.giftcard							{margin-left: 0!important;}
+section.gift ul.well .col1 								{width: 48%; float: left;}
+section.gift ul.well .col2 								{width: 48%; float: right;}
+section.gift ul.well  									{display: table;width: 100%;box-sizing: border-box;}
+
+ul.contact-social li a  								{display: block; width: 48px; height: 44px; background-repeat: no-repeat;background-image: url(img/social-icons.svg); background-size: 240px;}	
+ul.contact-social li a.facebook  						{background-position: 2px 0;}	
+ul.contact-social li a.twitter  						{background-position: -63px 0;}	
+ul.contact-social li a.pintrest  						{background-position: -131px 0;}	
+ul.contact-social li a.instagram 						{background-position: -193px 0;}
+
+
+/* ----------------extraspage------------- */
+section.extras-top                                    				{padding: 0px 10px;}
+section.extras-top .introcard  										{height: 210px;}
+section.extras-top .introcard h1 									{font-size: 26px; top: 30px;}
+section.extras-top .card-extras.jl-extra figure img.extra-img 		{transform: scaleX(1);}
+section.extras-top .card-extras.jl-extra figcaption p  				{width:80%;}
+section.extras-gift .card  											{min-height: 500px;}
+section.extras-gift .card.kuoni-gift-list  							{min-height: 400px;}
+section.extras-gift .gift-btns  									{left: 160px; right: 160px;}
+
+
+.grid 																{margin-top: 20px}
+.grid-sizer, .grid-item, .grid-item--width2  						{width: 350px;}
+
+section.extras-gift   									{padding: 20px 20px 5px 20px;}
+
+section.wedding  										{background-position: 60% 50%; height:320px;padding-top: 110px; }
+section.wedding h2 										{font-size: 28px;}
+section.holiday-extras  								{padding: 5px 15px;}
+
+
+section.store h2										{font-size: 23px; margin-bottom: 15px; line-height: 24px;}
+section.store .white-btn  								{display: block; padding-right: 20px; width: 320px; }
+section.store .text-block  								{margin-top: 15px;max-width: 370px;}
+
+
+
+}
+ 
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+section.help                                    	  	{padding: 30px 10px 0 10px;}
+section.contact-us                                    	{padding: 20px 10px 0 10px;}
+section.gift   											{padding: 10px;}
+section.extras   										{padding: 10px;}
+section.more   											{padding: 20px 0;}
+section.specialist   									{padding: 20px 20px;}
+section.extras a.read-more,
+section.gift a.read-more								{margin-bottom: 10px;}
+section.extras h2.lrg									{margin-bottom: 10px;}
+#help-tabs li.tab a.tab-link                        	{display: block; width: 100%; margin-right: 0; font-size: 100%;padding: 20px 15px;margin-bottom: 2px;border-right: none; background-image: url(img/plus.svg); background-repeat: no-repeat; background-position: 95% center; background-size: 20px 20px;}
+#help-tabs li.tab a.tab-link.active  					{background-image: url(img/minus.svg);}
+.no-touch #help-tabs li.tab a.tab-link:hover, 
+#help-tabs li.tab a.active       						{border-right: none;}
+#help-tabs article                                  	{float: none;padding: 10px; border-right: none;}
+#help-tabs .tab-break                               	{display: none;}
+.important-links a 										{clear: both;}
+h2.lrg-contact  										{font-size: 24px;}
+section.more ul.morelinks  								{padding: 0 10px;}
+section.more ul.morelinks li  							{width: 290px;}
+section.more ul.morelinks li a  						{display: block; padding: 15px;}
+section.specialist ul.specialist-logos li  				{width: 100%; margin-bottom: 15px;}
+section.specialist h2									{font-size: 24px;}
+
+.row-fluid .offset1 									{margin-left: 0; * margin-left: 0}
+.medic 													{margin-top: 20px;}
+
+
+ul.contact-social li a  								{display: block; width: 48px; height: 44px; background-repeat: no-repeat;background-image: url(img/social-icons.svg); background-size: 240px;}	
+ul.contact-social li a.facebook  						{background-position: 2px 0;}	
+ul.contact-social li a.twitter  						{background-position: -63px 0;}	
+ul.contact-social li a.pintrest  						{background-position: -131px 0;}	
+ul.contact-social li a.instagram 						{background-position: -193px 0;}
+
+.card-extras figure img.extra-img 						{max-width: 480px;}
+
+
+
+/* ----------------extraspage------------- */
+section.extras-top                                    	{padding: 5px 15px;}
+section.extras-top .introcard  							{height: 210px;}
+section.extras-top .introcard h1 						{font-size: 26px; top: 30px;}
+.grid 													{margin-top: 10px;}
+.grid-sizer, .grid-item, .grid-item--width2  			{width: 100%;margin-bottom: 15px;}
+
+
+section.wedding  										{background-position: 60% 50%; height:320px;padding:0; padding: 60px 30px;}
+section.wedding h2 										{font-size: 26px; line-height: 1.3;}
+section.extras-gift   									{padding: 20px 20px 0 20px;}
+section.holiday-extras 									{padding: 0 15px 0 15px;}
+section.holiday-extras .card.stack  					{height: 180px;}
+
+section.store h2										{font-size: 22px; margin-bottom: 15px; line-height: 28px;}
+section.store .white-btn  								{width:260px;  text-align: center; margin-left:0; margin-right: 0;}
+section.store .text-block  								{margin-top: 15px; text-align: center; padding: 15px; max-width: 100%;}
+
+}
+ 
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+.card-extras.jl-extra figure img.extra-img 				{max-width: 100%; height: 230px;}
+ }
+
+
+

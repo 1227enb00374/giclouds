@@ -1,0 +1,26 @@
+[23-Apr-2017 09:56:10 America/New_York] PHP Warning:  include(/inc/header.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:10 America/New_York] PHP Warning:  include(): Failed opening '/inc/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:10 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:10 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:10 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:13 America/New_York] PHP Warning:  include(/inc/header.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:13 America/New_York] PHP Warning:  include(): Failed opening '/inc/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:13 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:13 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:13 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:14 America/New_York] PHP Warning:  include(/inc/header.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:14 America/New_York] PHP Warning:  include(): Failed opening '/inc/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:14 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:14 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:14 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:15 America/New_York] PHP Warning:  include(/inc/header.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:15 America/New_York] PHP Warning:  include(): Failed opening '/inc/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 3
+[23-Apr-2017 09:56:15 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:15 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:56:15 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:59:25 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:59:25 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[23-Apr-2017 09:59:25 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
+[29-Apr-2017 07:17:11 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[29-Apr-2017 07:17:11 America/New_York] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/giclouds/public_html/lu/lu1.php on line 532
+[29-Apr-2017 07:17:11 America/New_York] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/giclouds/public_html/lu/lu1.php on line 532
